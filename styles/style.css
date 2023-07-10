@@ -17,6 +17,9 @@ body{
     padding: 50px 50px 0px 50px; 
     margin-bottom: 0px;
 }
+.banner-content{
+    padding-top: -10px;
+}
 .banner-title{
     color: #272727;
     font-size: 60px;
@@ -38,6 +41,7 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 600px;
+
 }
 .banner-img{
     width: 635px;
@@ -121,22 +125,36 @@ body{
     margin: 50px;
 }
 /*latest deals section style*/
-.late-deal-container{
-    /*background-image: url('../images/Rectangle\ 9.png');
-    background-repeat: no-repeat;
-    height: 60vh;
-    border-radius: 8px;*/
-    background-image: url('../images/Rectangle\ 9.png');
-    background-repeat: no-repeat;
-    background-position: center;
+.late-deals{
+    padding: 130px;
     border-radius: 8px;
-    width: 1000px;
-    height: 300px;
-    padding: 200px 240px 200px 240px;
+    background-image: url('../images/Rectangle\ 9.png');
+    margin: 130px auto;
+    max-width: 1165px;
 }
-.headline{
-    color: black;
+.late-deal-title{
+    color: #272727;
+    text-align: center;
     font-size: 40px;
-    font-weight: 700;
-    padding-top: 50px;
+    font-weight: 800;
+}
+.late-deal-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.email{
+    width: 500px;
+    height: 64px;
+    border: none;
+    font-size: 15px;
+    padding: 0px 15px;
+    border-radius: 8px;
 }

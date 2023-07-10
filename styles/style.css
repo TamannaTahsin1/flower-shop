@@ -10,7 +10,7 @@ body{
 }
 /*banner section style*/
 .banner-container{
-    background: rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -115,14 +115,8 @@ body{
     font-weight: 400;
     padding-bottom: 10px;
 }
-.btn-sign{
-    padding: 20px 50px 20px 40px; 
-    border-radius: 8px;
-    background-color: #E55473;
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 600px;
+#sign-btn{
+    margin-left: 220px;
 }
 /*instagram section style*/
 .insta-img{
@@ -168,4 +162,25 @@ body{
     font-size: 15px;
     padding: 0px 15px;
     border-radius: 8px;
+}
+/*footer section style*/
+.footer-container{
+    height: 30vh;
+    padding: 35px;
+    background-color: rgb(235, 175, 195);
+    color: white;
+}
+.footer-title{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.footer-description{
+    color: rgb(49, 48, 48);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 5px;
 }

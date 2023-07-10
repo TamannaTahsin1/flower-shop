@@ -49,14 +49,14 @@ body{
     color: #E55473;
 }
 /*feature section styles*/
-.feature-title{
+.primary-title{
     color: black;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-top: 100px;
 }
-.feature-description{
+.primary-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -112,3 +112,12 @@ body{
     font-weight: 400;
     padding-bottom: 10px;
 }
+/*instagram section style*/
+.insta-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+}
+

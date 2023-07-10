@@ -10,14 +10,12 @@ body{
 }
 /*banner section style*/
 .banner-container{
-    height: 100vh;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 50px 50px 0px 50px; 
     margin-bottom: 0px;
-
 }
 .banner-title{
     color: #272727;
@@ -38,6 +36,8 @@ body{
     background-color: #E55473;
     border: none;
     color: white;
+    font-size: 20px;
+    font-weight: 600px;
 }
 .banner-img{
     width: 635px;
